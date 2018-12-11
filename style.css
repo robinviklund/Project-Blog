@@ -1,0 +1,196 @@
+/*----------MAIN----------*/
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+* {
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*----------NAV----------*/
+
+.navbar {
+    background-color: #171717 !important;
+}
+
+.navbar .navbar-toggler {
+    border: none !important;
+}
+
+.navbar-brand,
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/*----------HOME----------*/
+
+#home {
+    background-color: #171717;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #171717 url(images/background.png) no-repeat bottom right;
+    background-size: 100%;
+} 
+
+h1 {
+    font-size: 34px;
+}
+
+#home p {
+    width: 500px;
+    max-width: 90%;
+    text-align: center;
+}
+
+@media (max-width: 575px) {
+    #home {
+        background: #171717 url(images/background2.png) no-repeat bottom right;;
+        background-size: 100%;
+    }
+}
+
+/*----------PROJECTS----------*/
+
+#projects {
+    background-color: #1c1c1c;
+    height: auto;
+    padding: 100px 0 50px 0;   
+}
+
+#vehicles,
+#programming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 1000px;
+    max-width: 95%;
+    margin-top: 50px;
+    margin-bottom: 125px;
+    border-bottom: solid 2px #2d2d2d;
+}
+
+.box h4{
+    margin: 10px;
+}
+
+.box p {
+    margin: 5px 0 50px 0;
+}
+
+.box img {
+    border: solid 2px #2d2d2d;
+}
+
+section h3 {
+    margin: 100px 0 75px 0;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+
+.source {
+    margin: 45px 5px 2px 0 !important;
+}
+
+/*----------CONTACT----------*/
+
+.fa {
+    margin: 0 10px 10px 10px;
+    padding: 7.5px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    background: #3F729B;
+    color: #fff;
+}
+
+.fa-youtube {
+    background: #E62117;
+    color: #fff;
+}
+
+.fa-github {
+    background: #333;
+    color: #fff;
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.15);
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+#contact h3 {
+    color: #0F2870;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 50px 0;
+}
+
+.form-control {
+    border-radius: 1em;
+}
+
+.send {
+    margin: 40px 0 100px 0;
+}
+
+.btnContact {
+    cursor: pointer;
+    background-color: #fff;
+    color: #0F2870;
+    border: solid 1px #0F2870;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 1em;
+    margin: auto;
+}
+
+.btnContact:hover {
+    background-color: #0F2870;
+    color: #fff;
+    border: 1px solid #0F2870;
+}
+
+/*----------FOOTER----------*/
+
+footer {
+    background-color: #1c1c1c;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 0 25px 0;
+}
+
+footer img {
+    height: 30px;
+}
+footer img:hover {
+    -webkit-filter: brightness(75%); /* Safari */
+    filter: brightness(75%);
+}
