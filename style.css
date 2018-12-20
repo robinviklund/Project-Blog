@@ -101,6 +101,10 @@ section h3 {
     margin: 45px 5px 2px 0 !important;
 }
 
+.carousel-caption p {
+    margin: 5px;
+}
+
 /*----------CONTACT----------*/
 
 .fa {
